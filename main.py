@@ -18,7 +18,7 @@ recognizer.phrase_threshold = 0.3
 recognizer.non_speaking_duration = 0.5
 
 newsapi = "16720680bace4571941c9313b3973006"
-client = OpenRouter(api_key="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")
+client = OpenRouter(api_key="API_KEY")
 
 def speak_old(text):
     engine = pyttsx3.init()
