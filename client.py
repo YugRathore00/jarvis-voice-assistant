@@ -1,6 +1,6 @@
 from google import genai
 
-client = genai.Client(api_key="AQ.Ab8RN6JoyJqgJfVi1ZX4dX-XjYkuNu6KMSHb42mBRJUw2zfaCQ")
+client = genai.Client(api_key="Api_Key")
 
 interaction = client.interactions.create(
     model="gemini-3.7-flash",
